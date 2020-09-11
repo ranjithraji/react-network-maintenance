@@ -1,0 +1,672 @@
+.bg {
+    background-image: url('https://images.wallpaperscraft.com/image/galaxy_earth_network_126341_3840x2400.jpg');
+    /* Center and scale the image nicely */
+    position: absolute;
+    width: 1518px;
+    height: 760px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    /* background-position: center;
+ background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+.title {
+    position: relative;
+    top: 30px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+.User-Container {
+    position: relative;
+    top: 80px;
+    left: 275px;
+    background-color: white;
+    width: 1040px !important;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.user-login {
+    position: relative;
+    top: 55px;
+    left: 20px;
+    width: 383px;
+    height: 117px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.user-login-button {
+    position: relative;
+    top: 80px;
+    right: 200px;
+    font-size: 24px;
+    line-height: 28px;
+    display: inline;
+}
+
+.user-button {
+    border-radius: 8px;
+    width: 115px !important;
+    height: 50px;
+    border-color: #000000;
+    box-shadow: 2px 4px 4px 0px gray;
+    background-color: #FFFCF3;
+}
+.user-button:hover {
+    border-radius: 8px;
+    width: 115px !important;
+    height: 50px;
+    color: #FFFFFF;
+    border-color: #23BB9F;
+    box-shadow: 2px 4px 4px 0px gray;
+    background-color: #23BB9F;
+
+}
+.adminCode {
+    width: 600px;
+    position: relative;
+    top: 80px;
+    left: 50%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.admininput {
+    background: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px 2px gray;
+    width: 250px;
+}
+
+.confirmButtom {
+    border-radius: 8px;
+    width: 115px !important;
+    height: 50px;
+    color: #FFFFFF;
+    border-color: #23BB9F;
+    box-shadow: 2px 4px 4px 0px gray;
+    background-color: #23BB9F;
+}
+
+.con-confirmButton {
+    position: relative;
+    top: 120px
+}
+
+/*Login*/
+
+.Login-Container {
+    position: relative;
+    top: 150px;
+    left: 410px;
+    background-color: white;
+    width: 700px !important;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.logininput {
+    background: #FFFCF3;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px 2px gray;
+    width: 250px;
+}
+
+.Container-block {
+    position: relative;
+    top: 70px;
+    font-size: 20px;
+}
+
+.Container-block-left {
+    position: relative;
+    left: 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.InputButtom {
+    color: #FFFFFF;
+    border-color: #23BB9F;
+    box-shadow: 0px 4px 4px 0px gray;
+    position: absolute;
+    width: 125px;
+    height: 50px;
+    background: #23BB9F;
+    border-radius: 10px;
+}
+
+/*Register*/
+
+.Register-Container {
+    position: relative;
+    top: 80px;
+    left: 450px;
+    background-color: white;
+    width: 650px !important;
+    height: 600px;
+    border-radius: 15px;
+}
+
+.titleContent {
+    position: relative;
+    top: 30px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+/*User*/
+
+.userConatiner {
+    position: relative;
+    width: 99%;
+    height: 70px;
+    left: 20px;
+    top: 8px;
+    background: #23BB9F;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.userCont {
+    width: 99%;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+.userLeftCon {
+    position: relative;
+    left: 20px;
+    top: 10px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.netIcon {
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.netIconTitle {
+    position: absolute;
+    width: 324px;
+    height: 37px;
+    left: 88px;
+    top: 20px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.netBellIcon {
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+
+.netUserIcon {
+    position: relative;
+    top: 20px;
+    left: 95px;
+}
+
+.netUserName {
+    position: relative;
+    width: 200px;
+    height: 37px;
+    left: 170px;
+    top: -11px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.userLeftCon .row {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.innerUserName {
+    position: relative;
+    left: 20px;
+    bottom: 2px;
+}
+
+.left-icon-name {
+    position: relative;
+    right: 0px;
+    left: 10px;
+    top: 20px;
+    bottom: 20px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.left-icon-name :hover {
+    color: #23BB9F;
+}
+
+.left-icon {
+    position: relative;
+    top: 20px;
+    left: 5px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.title-recent {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.recent-daily {
+    position: relative;
+    width: 96%;
+    height: 197px;
+    left: 40px;
+    top: 16px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px gray;
+}
+
+.recent-view-all {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-family: Lato;
+    cursor: pointer !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #23BB9F;
+}
+
+.title-inquiry {
+    position: relative;
+    width: 398px;
+    height: 46px;
+    left: 20px;
+    top: 22px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+
+.recent-inquiry {
+    position: relative;
+    width: 96%;
+    height: auto;
+    left: 40px;
+    top: 16px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px gray;
+}
+
+.recent-inquiry-inner {
+    position: relative;
+    width: 847px;
+    height: 190px;
+    left: 20px;
+    top: 5px;
+    bottom: 5px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.recent-inquiry-status {
+    position: relative;
+    width: 69px;
+    height: 5px;
+    left: 10px;
+    top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    color: #000000;
+}
+
+.recent-inquiry-button {
+    position: relative;
+    width: 120px;
+    height: 30px;
+    left: 20px;
+    top: 10px;
+    border-radius: 5px;
+}
+
+.NOTASSIGNED {
+    background: #ffc107;
+}
+
+.ASSIGNED {
+    background: #00adff;
+}
+
+.COMPLETED {
+    background: rgb(26, 213, 172);
+}
+
+.CLOSED {
+    background: #dc3545;
+}
+
+.add-inquiry-button {
+    position: relative;
+    width: 276px;
+    height: 52px;
+    left: 20px;
+    top: 10px;
+    background: #23BB9F;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.inquiry-content-left {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.inquiry-content-right {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    color: #000000;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+}
+
+/*inquiry create*/
+
+.create-center {
+    position: relative;
+    height: 408px;
+    top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.create-inquiry-right {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.create-inquiry-left {
+    background: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    height: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 14px;
+    color: #000000;
+}
+
+.create-center .row {
+    position: relative;
+    top: 50px;
+}
+
+/* edit profile */
+
+.edit-content-left {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.edit-content-right {
+    background: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    height: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 14px;
+    color: #000000;
+}
+
+.edit-button {
+    position: relative;
+    width: 100px;
+    height: 42px;
+    left: 180px;
+    top: -40px;
+    bottom: 20px;
+    background: #23BB9F;
+    border: 5px solid #23BB9F;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.edit-submit {
+    width: 100px;
+    height: 42px;
+    background: #23BB9F;
+    border: 5px solid #23BB9F;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+/*modal*/
+
+.modal-backdrop {
+    opacity: 0 !important;
+    -webkit-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+}
+
+.modal {
+    position: fixed;
+    top: 60px !important;
+    left: 700px !important;
+}
+
+.modal-content {
+    width: 250px !important;
+    height: 300px !important;
+}
+
+.modal-body {
+    width: 250px !important;
+    height: 300px !important;
+}
+
+.user-logo {
+    position: relative;
+    width: 45px;
+    height: 42.38px;
+    left: 40%;
+    top: 10px;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.53);
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.58);
+    text-align: center;
+    padding: 5px;
+}
+
+.user-name {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+.user-email {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.user-logout {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    /* identical to box height */
+    color: #000000;
+    position: relative;
+    top: 90px;
+    cursor: pointer;
+    left: 30px;
+}
+
+.success {
+    position: relative;
+    top: 15px;
+    left: 20px;
+    color: rgb(26, 213, 172);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.err {
+    position: relative;
+    top: 15px;
+    left: 20px;
+    color: #dc3545;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    display: none;
+}
+
+.confirmUpdate {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border-radius: 8px;
+    width: 90px !important;
+    height: 30px;
+    color: #FFFFFF;
+    border-color: #23BB9F;
+    box-shadow: 2px 4px 4px 0px #FFFFFF;
+    background-color: #23BB9F;
+}
+
+.dailyUpdate-hour {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.dailyUpdate-content {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+}
